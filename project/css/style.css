@@ -1,0 +1,321 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+    color:#1191cc;
+    font-family: cursive;
+}
+h1 span{
+    font-size: 20px;
+    font-weight: 300;
+    color: #686a6b;
+}
+.contact-number i{
+    color: #1191cc;
+    margin-right: 20px;
+}
+.carousel-text{
+    color:#ffffff;
+}
+.carousel-text-container{
+    width: 40%;
+}
+
+
+.header{
+    height: 18vh;
+    width: 100%;
+    top: 0px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    margin: 10px;
+}
+.website-name{
+    height: 6vh;
+    width: 60%;
+}
+.tagline{
+    height: 6vh;
+    width: 20%;
+    font-size: 20px;
+}
+.contact-number{
+    height: 6vh;
+    width: 25%;
+    font-size: 30px;
+    text-align: right;
+    
+}
+.menubar{
+    height: 13vh;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    border: 1px solid gray;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 50;
+}
+.dropdown{
+    height: 13vh;
+    width: 20%;
+}
+#dropdownMenuButton1{
+    height: 13vh;
+    width:100%;
+    border: 1px solid white;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight:700;
+    letter-spacing: 3px;
+    background-color: #1f90d1;  
+}
+#dropdownMenuButton1:focus{
+    box-shadow: none;
+}
+#dropdownMenuButton1:hover{
+    color: #64b5e4;
+    background-color: #747779;
+}
+
+
+
+/*.solar,.window,.loft,.life_insurance,.mortgage{
+    height: 11vh;
+    width: 12%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f8f0f0;
+    background-color: #1191cc;
+}*/
+
+.middle-sectio{
+    height:30vh;
+    width: 100%;
+}  
+.c-item{
+    height:90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.c-img{
+    height: 100%;
+    
+}
+.middle-bar{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 6px;
+    background-color:#1b91d6;
+}
+.middle-bar h1{
+    color:#ffffff;
+    font-size:25px;
+    font-weight: 600;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.middle-bar h1 span{
+    color: #ffffff;
+    font-size:35px;
+    font-weight: bold;
+    margin: 0px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.middle-section{
+    height:90vh;
+    width: 100%;
+    margin:0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-img-section{
+    height:80vh;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle-text-section{
+    height: 80vh;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    line-height:30px;
+    letter-spacing:2px;
+    font-size: 20px;
+}
+.middle-text-section p{
+    margin:20px 0px;
+}
+
+.login-section{
+    position: absolute;
+    top:34%;
+    right:8%;
+    height:85vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/*.login-img{
+    height:50vh;
+    width: 90%;
+    margin-left: 76px;
+    background-image:url(images/computer_desk.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+ }*/
+ .login-container{
+    height:80vh;
+    width:75%;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#e6eaeb;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 35px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+.input-group{
+    height: 10vh;
+    width:60%;
+    margin:5px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-group input{
+    height:8vh;
+    width:75%;
+    padding-left: 70px;
+    border: 1px solid rgb(41, 179, 197);
+    border-top-right-radius: 5px;
+    outline: 0px;
+    font-size: 18px;
+    font-weight:500;
+}
+.login-container button{
+    padding:10px 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d3cfcf;
+}
+.login-headline{
+    height: 15vh;
+    width: 100%;
+    margin-bottom:25px;
+    border-radius:15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color:#1b91d6; 
+    
+}
+.login-headline h1{
+    color: #f8f3f3;
+}
+.icon i{
+    position: absolute;
+    top:15%;
+    left: 15%;
+    vertical-align: middle;
+    color:#1b91d6;
+}
+.dotted-line{
+    height:5vh;
+    width:100%;
+    margin:30px 0px 30px 0px ;
+    display: flex;
+    justify-content: center; 
+}
+.dotted-line img{
+    height: 5vh;
+    width: 10%;
+    
+}
+.card-body{
+    margin-top: 30px;
+}
+.card-img{
+    height: 40vh;
+    width: 20%;
+    object-fit:cover;
+}
+.bottom-section{
+    height:150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.business-img{
+    height:70vh;
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world-img{
+    height: 60vh;
+    width: 100%;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height:12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-section{
+    height: 12vh;
+    width: 100%;
+    background-color:#1b91d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-footer i{
+    color: #f7f8f8;
+    margin: 0px 20px 0px 20px;
+}
+
+
