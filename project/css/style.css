@@ -146,23 +146,30 @@ h1 span{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .middle-section{
-    height:90vh;
+    height:220vh;
     width: 100%;
-    margin:0px 0px 0px 0px;
+    margin:20px 0px 20px 0px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.middle-img-section{
-    height:80vh;
-    width:60%;
+.middle-section-up{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    
+}
+.middle-img-section-up{
+    height:70vh;
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.middle-text-section{
-    height: 80vh;
+.middle-text-section-up{
+    height: 70vh;
     width: 50%;
     padding: 20px;
     display: flex;
@@ -173,7 +180,62 @@ h1 span{
     letter-spacing:2px;
     font-size: 20px;
 }
-.middle-text-section p{
+.middle-text-section-up p{
+    margin:20px 0px;
+}
+.middle-section-middle{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}  
+.middle-img-section-middle{
+    height:70vh;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.middle-text-section-middle{
+    height: 70vh;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    line-height:30px;
+    letter-spacing:2px;
+    font-size: 20px;
+}
+.middle-section-down{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+
+}
+.middle-img-section-down{
+    height:70vh;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle-text-section-down{
+    height: 70vh;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    line-height:30px;
+    letter-spacing:2px;
+    font-size: 20px;
+}
+.middle-text-section-middle p{
     margin:20px 0px;
 }
 
@@ -200,6 +262,7 @@ h1 span{
  .login-container{
     height:80vh;
     width:75%;
+    padding-bottom: 5px;
     border-radius:15px;
     display: flex;
     align-items: center;
@@ -226,9 +289,10 @@ h1 span{
     font-weight:500;
 }
 .login-container button{
-    padding:10px 25px;
-    margin-top: 10px;
-    font-size: 18px;
+    padding:10px 20px;
+    margin-top: 10px 0px;
+
+    font-size: 16px;
     font-weight: bold;
     color: #d3cfcf;
 }
