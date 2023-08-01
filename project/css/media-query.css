@@ -79,7 +79,7 @@
         font-size: 20px;
     }
     .middle-section{
-        height:200vh;
+        height:450vh;
         width: 100%;
         margin: 0px;
         display: flex;
@@ -88,8 +88,9 @@
         flex-direction: column;
     }
     .login-section{
-        height:70vh;
+        height:100vh;
         width:100%;
+        padding: 8px;
         margin:10px 0px 10px 0px;
         position: static;
         align-items: center;
@@ -98,8 +99,8 @@
         
     }
     .login-container{
-        height:65vh;
-        width:80%;
+        height:90vh;
+        width:100%;
         position: static;
     }
     .input-group input{
@@ -118,24 +119,57 @@
         font-weight: bold;
         color: #d3cfcf;
     }
-    .middle-img-section{
+    .middle-section-up,
+    .middle-section-middle,
+    .middle-section-down{
+        height:110vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /*.middle-section-middle{
+        height:200vh;
+        width: 100%;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }*/
+    .middle-img-section-up, 
+    .middle-img-section-middle, 
+    .middle-img-section-down{
         height:50vh;
         width: 100%;
         padding: 16px;
     }
-    .middle-img-section img{
-        height: 35vh;
+    .middle-img-section-up img,
+    .middle-img-section-middle img,
+    .middle-img-section-down img{
+        height:45vh;
         width: 100%;
     }
-    .middle-text-section{
-        height: 60vh;
+    .middle-text-section-up,  
+    .middle-text-section-down{
+        height:50vh;
         width: 100%;
         padding:20px;
+        display: flex;
+        flex-direction:column;
         line-height:20px;
         letter-spacing:1px;
-        font-size: 16px;
+        font-size:16px;
     }
-    .middle-text-section p{
+    .middle-text-section-middle{
+        height:80vh;
+        width: 100%;
+        padding:20px;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction:column;
+        line-height:20px;
+        letter-spacing:1px;
+        font-size:16px;
+    }
+    .middle-text-section-up p{
         text-align:left;
 
     }

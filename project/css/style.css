@@ -27,10 +27,8 @@ h1 span{
 .carousel-text-container{
     width: 40%;
 }
-
-
 .header{
-    height: 18vh;
+    height: 15vh;
     width: 100%;
     top: 0px;
     background-color:#ffffff;
@@ -58,7 +56,7 @@ h1 span{
     
 }
 .menubar{
-    height: 13vh;
+    height: 11vh;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -70,15 +68,15 @@ h1 span{
     z-index: 50;
 }
 .dropdown{
-    height: 13vh;
+    height: 11vh;
     width: 20%;
 }
 #dropdownMenuButton1{
-    height: 13vh;
+    height: 11vh;
     width:100%;
     border: 1px solid white;
     border-radius: 0px;
-    font-size: 20px;
+    font-size:18px;
     font-weight:700;
     letter-spacing: 3px;
     background-color: #1f90d1;  
@@ -209,6 +207,9 @@ h1 span{
     letter-spacing:2px;
     font-size: 20px;
 }
+.middle-text-section-middle p{
+    margin:20px 0px;
+}
 .middle-section-down{
     height: 75vh;
     width: 100%;
@@ -235,13 +236,13 @@ h1 span{
     letter-spacing:2px;
     font-size: 20px;
 }
-.middle-text-section-middle p{
+.middle-text-section-down p{
     margin:20px 0px;
 }
 
 .login-section{
     position: absolute;
-    top:34%;
+    top:28%;
     right:8%;
     height:85vh;
     width: 40%;
@@ -309,6 +310,10 @@ h1 span{
 }
 .login-headline h1{
     color: #f8f3f3;
+}
+.login-headline img{
+    border-radius: 8px;
+    background-color: transparent;
 }
 .icon i{
     position: absolute;
