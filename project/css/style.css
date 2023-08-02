@@ -17,6 +17,24 @@ h1 span{
     font-weight: 300;
     color: #888485;
 }
+
+.dotted-line{
+    height:5vh;
+    width:100%;
+    margin:30px 0px 30px 0px ;
+    display: flex;
+    justify-content: center; 
+}
+.dotted-line img{
+    height: 4vh;
+    width:5%;
+    
+}
+.horizontal-line{
+    width: 20%;
+    padding-left: 0px;
+    border-bottom: 2px solid gray;
+}
 .contact-number i{
     color: #1191cc;
     margin-right: 20px;
@@ -28,7 +46,7 @@ h1 span{
     width: 40%;
 }
 .header{
-    height: 15vh;
+    height:auto;
     width: 100%;
     top: 0px;
     background-color:#ffffff;
@@ -322,18 +340,7 @@ h1 span{
     vertical-align: middle;
     color:#1b91d6;
 }
-.dotted-line{
-    height:5vh;
-    width:100%;
-    margin:30px 0px 30px 0px ;
-    display: flex;
-    justify-content: center; 
-}
-.dotted-line img{
-    height: 4vh;
-    width:5%;
-    
-}
+
 .card-body{
     margin-top: 30px;
 }
@@ -439,6 +446,26 @@ h1 span{
 .icon-footer i{
     color: #f7f8f8;
     margin: 0px 20px 0px 20px;
+}
+
+.large-text{
+    color: #1191cc;
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline;
+}
+.para-bold{
+    font-weight: bold;
+}
+.paragrapg-space-left{
+    margin-left: 80px;
+}
+.medium-text{
+    margin: 20px 0px;
+}
+
+.privacy-policy{
+    padding: 25px 80px;
 }
 
 
