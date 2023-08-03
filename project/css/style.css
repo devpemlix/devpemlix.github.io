@@ -447,7 +447,7 @@ h1 span{
     color: #f7f8f8;
     margin: 0px 20px 0px 20px;
 }
-
+/*#####################  start  privacy policy ##################*/
 .large-text{
     color: #1191cc;
     text-align: center;
@@ -462,10 +462,61 @@ h1 span{
 }
 .medium-text{
     margin: 20px 0px;
+    color:#1191cc;
 }
 
 .privacy-policy{
     padding: 25px 80px;
+}
+.table-head-left{
+    width: 30%;
+    height: 14vh;
+    font-size: 20px;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1191cc;
+    color: #ffffff;
+}
+.table-head{
+    height: 14vh;
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1191cc;
+    color:#f3f7f8;
+    
+}
+.table-row{
+    height:14vh;
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    
+}
+.table-data-left{
+    height: 14vh;
+    width: 30%;
+    padding-left: 10px;
+    border-right: 2px solid gray;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.table-data{
+    width: 70%;
+    padding-left: 10px;
 }
 
 
