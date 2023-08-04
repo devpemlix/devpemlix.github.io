@@ -15,7 +15,7 @@ h1{
 h1 span{
     font-size: 20px;
     font-weight: 300;
-    color: #888485;
+    color: #b31e50f6;
 }
 
 .dotted-line{
@@ -109,6 +109,9 @@ h1 span{
 
 
 
+
+
+
 /*.solar,.window,.loft,.life_insurance,.mortgage{
     height: 11vh;
     width: 12%;
@@ -138,19 +141,23 @@ h1 span{
     
 }
 .middle-bar{
-    height: 10vh;
+    height: 14vh;
     width: 100%;
+    padding: 0px 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     word-spacing: 6px;
     background-color:#1b91d6;
 }
-.middle-bar h1{
+.middle-bar h6{
     color:#ffffff;
-    font-size:23px;
+    font-size:18px;
     font-weight: 600;
     margin: 0px;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .middle-bar h1 span{
@@ -257,11 +264,16 @@ h1 span{
 .middle-text-section-down p{
     margin:20px 0px;
 }
+.middle-img-section-up img,
+.middle-img-section-middle img,
+.middle-img-section-down img{
+    border-radius: 5px;
+}
 
 .login-section{
     position: absolute;
     top:28%;
-    right:8%;
+    right:4%;
     height:85vh;
     width: 40%;
     display: flex;
@@ -341,13 +353,31 @@ h1 span{
     color:#1b91d6;
 }
 
-.card-body{
+/*.card-body{
     margin-top: 30px;
 }
 .card-img{
     height: 40vh;
     width: 20%;
     object-fit:cover;
+}*/
+.card-body{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    
+}
+.card{
+    height: 40vh;
+    width: 30%;
+    margin: 15px;
+    
+}
+.card-text{
+    height: 8vh;
+    width: 30%;
 }
 .bottom-section{
     height:150vh;
