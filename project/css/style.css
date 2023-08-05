@@ -100,12 +100,14 @@ h1 span{
     background-color: #1f90d1;  
 }
 #dropdownMenuButton1:focus{
+    background-color: #747779;
     box-shadow: none;
 }
 #dropdownMenuButton1:hover{
     color: #64b5e4;
     background-color: #747779;
 }
+
 
 
 
