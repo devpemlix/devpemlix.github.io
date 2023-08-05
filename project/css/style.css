@@ -361,7 +361,7 @@ h1 span{
     width: 20%;
     object-fit:cover;
 }*/
-.card-body{
+.card-section{
     
     display: flex;
     justify-content: center;
@@ -369,15 +369,29 @@ h1 span{
     vertical-align: middle;
     
 }
-.card{
-    height: 40vh;
-    width: 30%;
+.card-item{
+    height:45vh;
+    width: 25%;
     margin: 15px;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
+.card-item:hover{
+    transform: translateY(-8px);
+    transition: 0.2s;
+}
+.card-item img:hover{
+   opacity:0.8;  
 }
 .card-text{
-    height: 8vh;
-    width: 30%;
+    height:9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#1191cc;
+    
+ 
+    
 }
 .bottom-section{
     height:150vh;
