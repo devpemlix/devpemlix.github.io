@@ -507,7 +507,7 @@ h1 span{
 .para-bold{
     font-weight: bold;
 }
-.paragrapg-space-left{
+.paragraph-space-left{
     margin-left: 80px;
 }
 .medium-text{
@@ -567,6 +567,17 @@ h1 span{
 .table-data{
     width: 70%;
     padding-left: 10px;
+}
+/*#####################  end  privacy policy ##################*/
+/*#####################  start  terms & condition ##################*/
+.bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+.digit-color{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1191cc;
 }
 
 
