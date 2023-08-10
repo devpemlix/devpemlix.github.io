@@ -148,25 +148,45 @@ h1 span{
     
 }
 #cookies-section{
-    height: 40vh;
-    width: 25%;
-    position: absolute;
-    left: 10px;
+    height: 20vh;
+    width: 80%;
+    position:fixed;
     bottom:2px;
-    border-radius: 10px;
-    padding: 0px 15px;
+    margin:0 10%;
+    border-radius: 5px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     text-align: center;
     background-color: #ccd0d1;
     z-index: 99;
 
 }
-#cookies-button-section button{
+
+#cookies-text{
+    height: 100%;
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px 0px 0px 5px;
+
+    
+
+}
+#cookies-button-section{
+    height:100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+}
+#cookies-button-1,
+#cookies-button-2{
+    height: 60px;
+    width: 80px;
     padding: 7px 18px;
-    margin:0px 10px;
+    margin:10px 10px;
     border: 0px;
     border-radius: 5px;
     color: white;
@@ -177,9 +197,13 @@ h1 span{
     background-color: rgb(170, 102, 216);
 }
 #cross{
-    position:absolute;
+    position: absolute;
     top: 5px;
-    right: 10px;
+    right: 5px;
+
+}
+#cross:hover{
+    border: 1px solid black;
 }
 
 .middle-bar{
