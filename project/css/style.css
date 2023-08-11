@@ -86,13 +86,14 @@ h1 span{
     border: 1px solid gray;
     background-color:rgb(255, 255, 255);
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     z-index: 50;
 }
 .dropdown{
+    display: flex;
     height: 10vh;
-    width: 20%;
+    width: 100%;
 }
 #dropdownMenuButton1{
     height: 10vh;
@@ -112,13 +113,6 @@ h1 span{
     color: #64b5e4;
     background-color: #747779;
 }
-
-
-
-
-
-
-
 /*.solar,.window,.loft,.life_insurance,.mortgage{
     height: 11vh;
     width: 12%;
@@ -438,6 +432,9 @@ h1 span{
 .card-item{
     height:45vh;
     width: 25%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
     margin: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
     transition: 0.5s;
@@ -555,6 +552,10 @@ h1 span{
 .icon-footer i{
     color: #f7f8f8;
     margin: 0px 20px 0px 20px;
+}
+.mystyle{
+    background-color: rgb(192, 40, 103);
+    color: orange;
 }
 /*#####################  start  privacy policy ##################*/
 .large-text{
