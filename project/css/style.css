@@ -26,6 +26,26 @@ h1 span{
     justify-content: center; 
     align-items: center;
 }
+.animation-line{
+    content:"";
+    height: 3px;
+    width:0px;
+    margin-top:25px;
+    background-color:#1191cc;
+    transition: 0.8s;
+    transition-delay: 0.2s;
+    
+}
+
+.middle-section-up:hover .animation-line{
+    width: 20%;
+}
+.middle-section-middle:hover .animation-line{
+    width: 20%;
+}
+.middle-section-down:hover .animation-line{
+    width: 20%;
+}
 .dot{
     height: 9px;
     width: 9px;
@@ -106,7 +126,6 @@ h1 span{
     background-color: #1f90d1;  
 }
 #dropdownMenuButton1:focus{
-    background-color: #747779;
     box-shadow: none;
 }
 #dropdownMenuButton1:hover{
@@ -257,7 +276,7 @@ h1 span{
     padding: 20px;
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     line-height:30px;
     letter-spacing:2px;
@@ -286,7 +305,7 @@ h1 span{
     padding: 20px;
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     line-height:30px;
     letter-spacing:2px;
@@ -315,7 +334,7 @@ h1 span{
     padding: 20px;
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     line-height:30px;
     letter-spacing:2px;
@@ -329,6 +348,7 @@ h1 span{
 .middle-img-section-down img{
     border-radius: 5px;
 }
+
 
 .login-section{
     position: absolute;
@@ -432,9 +452,6 @@ h1 span{
 .card-item{
     height:45vh;
     width: 25%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
     margin: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
     transition: 0.5s;
@@ -554,7 +571,7 @@ h1 span{
     margin: 0px 20px 0px 20px;
 }
 .mystyle{
-    background-color: rgb(192, 40, 103);
+    background-color: rgb(83, 192, 40);
     color: orange;
 }
 /*#####################  start  privacy policy ##################*/
