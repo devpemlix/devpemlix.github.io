@@ -179,7 +179,7 @@ h1 span{
 #cookies-text{
     height: 100%;
     width: 80%;
-    padding: 8px;
+    padding: 5px 50px;
     border-radius: 5px 0px 0px 5px;
 
     
@@ -273,7 +273,7 @@ h1 span{
 .middle-text-section-up{
     height: 70vh;
     width: 50%;
-    padding: 20px;
+    padding: 33px;
     display: flex;
     justify-content:center;
     align-items:flex-start;
@@ -302,7 +302,7 @@ h1 span{
 .middle-text-section-middle{
     height: 70vh;
     width: 50%;
-    padding: 20px;
+    padding: 33px;
     display: flex;
     justify-content:center;
     align-items:flex-start;
@@ -331,10 +331,10 @@ h1 span{
 .middle-text-section-down{
     height: 70vh;
     width: 50%;
-    padding: 20px;
+    padding: 33px;
     display: flex;
     justify-content:center;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
     line-height:30px;
     letter-spacing:2px;
