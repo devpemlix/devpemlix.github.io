@@ -543,16 +543,17 @@ h1 span{
 .footer-content-3 ul li a::after{
     content: "";
     height: 4px;
-    width: 100%;
-    background:rgb(221, 110, 129);
+    width: 0%;
+    background:rgb(245, 135, 168);
     position: absolute;
     left: 0px;
     bottom: -10px;
-    transition: all 0.3s;
+    transition:0.5s;
     opacity: 0; 
 }
 .footer-content-3 ul li a:hover::after{
     opacity: 1;
+    width: 100%;
     
 }
 .footer-content-3 ul li a:hover{
