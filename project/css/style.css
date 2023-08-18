@@ -171,7 +171,7 @@ h1 span{
     align-items: center;
     justify-content:space-between;
     text-align: center;
-    background-color: #ccd0d1;
+    background-color:#D2E8E3;
     z-index: 99;
 
 }
@@ -196,18 +196,23 @@ h1 span{
 }
 #cookies-button-1,
 #cookies-button-2{
-    height: 60px;
-    width: 80px;
+    height: 40px;
+    width: 90px;
     padding: 7px 18px;
     margin:10px 10px;
     border: 0px;
-    border-radius: 5px;
-    color: white;
-    background-color:#1b91d6
+    border-radius: 2px;
+    color: rgb(217, 219, 219);
+    background-color:rgb(248, 127, 14);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color,0.3s;
 
 }
 #cookies-button-section button:hover{
-    background-color: rgb(170, 102, 216);
+    background-color: rgb(61, 156, 235);
+    outline: none;
 }
 #cross{
     position: absolute;
@@ -570,6 +575,9 @@ h1 span{
 .icon-footer i{
     color: #f7f8f8;
     margin: 0px 20px 0px 20px;
+}
+.icon-footer i:hover{
+    color:rgb(196, 194, 197);
 }
 .mystyle{
     background-color: rgb(83, 192, 40);
