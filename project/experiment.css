@@ -6,26 +6,35 @@
 .header{
     height: 12vh;
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(109, 108, 107);
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .item{
-    height: 5vh;
-    width: 15%;
     font-size: 15px;
     font-weight: 600;
+
+    padding:10px 16px;
+    border-radius: 5px;
 }
 .item a{
     text-decoration:none ;
-    color: blueviolet;
+    color: rgb(240, 239, 239);
 }
 #box{
-    height: 50vh;
-    width: 40%; 
+    height:400px;
+    width: 0%; 
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
 }
-.hello{
-    background-color: red;
+
+.active{
+    background-color: rgb(243, 10, 10);
+    text-decoration: none;
 
 }
