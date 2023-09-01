@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-image:url(bg_image.jpg);
+	background-size: cover;
+	background-position: center;
+	background-position: center;	
+}
+.logo{
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+.loginbox{
+	width: 820px;
+	height: 240px;
+	background-image: linear-gradient(to top, #a2c9c7 0%, #d4b4bf 100%);
+	/*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+	background-image: linear-gradient(to top, #d481c1 0%, #c9a7c1 1%, #f8e8fd 100%);*/
+	color:rgb(88, 88, 88);
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 20px 20px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 13px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;	
+}
+.agent{
+	width: 220px;
+	height: 190px;
+	position: absolute;
+	left: 5%;
+	top: 12px;
+	
+}
+.loginbox from{
+	margin: 0%;
+	padding:80px;
+	font-weight:bold;
+	top: 53%;
+	left: 2%;
+	position: absolute;
+	font-size: 20px;
+}
+.admin{
+	width: 200px;
+	height: 190px;
+	position: absolute;
+	left: 40%;
+	top: 10px;
+}
+.loginbox from1{
+	margin: 0%;
+	padding:80px;
+	font-weight: Bold;
+	top: 53%;
+	left: 35%;
+	position: absolute;
+	font-size: 20px;	
+}
+.report{
+	width: 200px;
+	height: 190px;
+	position: absolute;
+	left: 70%;
+	top: 2px;
+}
+.loginbox from2{
+	margin: 0%;
+	padding:0px;
+	font-weight: Bold;
+	top: -11%;
+	left: 160%;
+	position: absolute;
+	font-size: 20px;
+}

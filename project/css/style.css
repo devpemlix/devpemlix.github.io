@@ -28,13 +28,46 @@ h1 span{
 }
 .animation-line{
     content:"";
-    height: 3px;
+    height: 4px;
     width:0px;
     margin-top:25px;
     background-color:#1191cc;
     transition: 0.8s;
     transition-delay: 0.2s;
     
+}
+/*<button class="btn btn-primary px-4 py-2 fs-5 mt-5">Book</button>*/
+.btn-small,
+.btn-medium,
+.btn-large{
+    padding: 7px 18px;
+    margin:10px 10px;
+    border: 0px;
+    border-radius: 2px;
+    color: rgb(217, 219, 219);
+    background-color:rgb(248, 127, 14);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color,0.3s;
+}
+.btn-small{
+    height: 40px;
+    width: 90px;
+}
+.btn-medium{
+    height: 50px;
+    width: 110px;
+}
+.btn-large{
+    height: 50px;
+    width: 140px;
+}
+.btn-large:hover{
+    background-color: #1191cc;
+}
+.btn-medium:hover{
+    background-color: #1191cc;
 }
 
 .middle-section-up:hover .animation-line{
@@ -132,19 +165,6 @@ h1 span{
     color: #64b5e4;
     background-color: #747779;
 }
-/*.solar,.window,.loft,.life_insurance,.mortgage{
-    height: 11vh;
-    width: 12%;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f8f0f0;
-    background-color: #1191cc;
-}*/
-
 .middle-sectio{
     height:30vh;
     width: 100%;
@@ -171,19 +191,15 @@ h1 span{
     align-items: center;
     justify-content:space-between;
     text-align: center;
-    background-color:#D2E8E3;
+    background-color:#ecf1f1;
     z-index: 99;
 
 }
-
 #cookies-text{
     height: 100%;
     width: 80%;
     padding: 5px 50px;
     border-radius: 5px 0px 0px 5px;
-
-    
-
 }
 #cookies-button-section{
     height:100%;
@@ -193,22 +209,6 @@ h1 span{
     align-items: center;
     justify-content: center;
     border-radius: 0 5px 5px 0;
-}
-#cookies-button-1,
-#cookies-button-2{
-    height: 40px;
-    width: 90px;
-    padding: 7px 18px;
-    margin:10px 10px;
-    border: 0px;
-    border-radius: 2px;
-    color: rgb(217, 219, 219);
-    background-color:rgb(248, 127, 14);
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: background-color,0.3s;
-
 }
 #cookies-button-section button:hover{
     background-color: rgb(61, 156, 235);
@@ -579,9 +579,8 @@ h1 span{
 .icon-footer i:hover{
     color:rgb(196, 194, 197);
 }
-.mystyle{
+.active{
     background-color: rgb(83, 192, 40);
-    color: orange;
 }
 /*#####################  start  privacy policy ##################*/
 .large-text{

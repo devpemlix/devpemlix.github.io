@@ -4,37 +4,30 @@
     box-sizing: border-box;
 }
 .header{
-    height: 12vh;
+    height: 30vh;
     width: 100%;
-    background-color: rgb(109, 108, 107);
+    background-color: rgb(167, 166, 164);
     display: flex;
+    justify-content:space-evenly;
     align-items: center;
-    justify-content: center;
+
 }
-.item{
-    font-size: 15px;
+.btnnn{
+    color: aliceblue;
+    height:80px;
+    width:120px;
+    font-size: 25px;
     font-weight: 600;
-
-    padding:10px 16px;
     border-radius: 5px;
-}
-.item a{
-    text-decoration:none ;
-    color: rgb(240, 239, 239);
-}
-#box{
-    height:400px;
-    width: 0%; 
-    color: deeppink;
+  
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    transition: 1s;
-
 }
-
 .active{
-    background-color: rgb(243, 10, 10);
-    text-decoration: none;
-
+    color: blue;
+    background-color: #d389a9;
+    font-size: 45px;
 }
+
+
