@@ -4,31 +4,45 @@
     box-sizing: border-box;
 
 }
-/*body{
-  padding-top:50px;
-}*/
-#dark
+body{
+  padding-top:65px;
+}
+
 #dark-blue{
-    font-size: 30px;
-    font-weight: 300;
+    font-size:25px;
+    font-weight:400;
+    color:#c9ccce;
+
+}
+.purple{
+    color: #aeabab;
+}
+.blue{
     color:#1caaca;
-
 }
 
-.middle-bar{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    color: whitesmoke;
-    background: rgb(0,15,36);
-    background: linear-gradient(90deg, rgba(0,15,36,1) 0%, rgba(9,120,121,1) 42%, rgba(2,233,207,1) 100%);
-    
-}
-.middle-bar h6{
+.paragraph-text{
     font-size: 20px;
-    font-weight: 400;
+    font-weight:400;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+
+
+.header-text{
+    font-size: 90px;
+    font-weight:300;
+    margin: 0;
+}
+.medium-text{
+    font-size:52px;
+    font-weight:400;
+}
+.small-text{
+    font-size: 30px;
+    font-weight:400;
+    letter-spacing: 3px;
 }
 
 .btn-medium{
@@ -36,11 +50,13 @@
     width: 160px;
     font-size: 20px;
     font-weight: 500;
-    border: none;
+    border: 2px;
+    
     border-radius: 5px;
     margin: 8px 8px 8px 0px;
     color: rgb(255, 255, 255);
     background-color:#FF5F5D;
+    transition: all 0.3s;
 }
 .btn-medium:hover{
     color:#FF5F5D;
@@ -59,12 +75,23 @@
     color: rgb(255, 255, 255);
     background-color:#FF5F5D;
 }
+.middle-bar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background-color:#049DD9;
 
+    
+}
 
 .middle-section{
     height:90vh;
     width: 100%;
     display: flex; 
+    background-color: #e9ebef;
+
 }
 .middle-section-text{
     height: 90vh;
@@ -81,21 +108,8 @@
     align-items: center;
     justify-content: center;
 }
-.middle-section-text h1{
-    font-size: 90px;
-    font-weight:300;
-    margin: 0;
-    color:#1caaca;
-    
-   
-}
-.middle-section-text h4{
-    font-size:35px;
-    font-weight:300;
-    color:#f86b6b;
-    
 
-}
+
 
 .gallery{
     width: 100%;
@@ -107,60 +121,42 @@
     justify-content: center;
     
 }
-.option{
-    height: 80px;
-    width:60%;
-    border-radius:50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
+
 .card-section{
+    
+    height: 110vh;
     width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color:#e9ebef;
+
 }
 .box{
     height: 80vh;
     width: 25%;
-    margin: 0px 12px;
+    margin: 0px 25px;
     padding: 8px;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.box p{
-    text-align: center;
-    letter-spacing: 2px;
-}
-.box h1{
-    font-weight: 400;
+.svg-img{
+    display: block;
+    width:100%;
 }
 .benifit-section{
-    height:140vh;
+    position: relative;
     width: 100%;
     text-align: center;
-    padding: 35px 0px;
     color: #ffffff;
-    background: rgb(0,15,36);
-    background: linear-gradient(90deg, rgba(0,15,36,1) 0%, rgba(9,120,121,1) 42%, rgba(2,233,207,1) 100%);
+    background-color:#049DD9;
 }
 .benifit-box{
     width: 21%;
-}
-.benifit-section h1{
-    font-size:52px;
-    font-weight: 300;
-    color: #e28a8a;
-}
-.benifit-section p{
-    font-size: 20px;
-    font-weight:400;
-    text-align: center;
-    letter-spacing: 3px;
 }
 .benifit-box-parent{
     margin-top: 70px;
@@ -173,11 +169,7 @@
     align-items: center;
     justify-content:space-evenly;
 }
-.benifit-box-inner h2{
-    font-size:100px;
-    font-weight:300;
 
-}
 .benifit-box-inner i{
     font-size:65px;
 
@@ -191,19 +183,17 @@
 .benifit-devider-left{
     height:100%;
     width: 50%;
-    padding-left:140px ;
-
-
-}
-.benifit-devider-left h1{
-    color: #e28a8a;
+    padding:70px 0 0 140px ;
     text-align: left;
+
 }
-.benifit-devider-left p{
-    text-align: left;
-}
+
 .benifit-devider-right{
     margin: auto;
+}
+.footer{
+    height: 100vh;
+    width: 100%;
 }
 
 
