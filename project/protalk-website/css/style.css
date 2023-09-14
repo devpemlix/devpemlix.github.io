@@ -5,7 +5,10 @@
 
 }
 body{
-  padding-top:65px;
+  padding-top:63px;
+
+
+
 }
 
 #dark-blue{
@@ -15,10 +18,10 @@ body{
 
 }
 .purple{
-    color: #aeabab;
+    color: #dbd7d7;
 }
 .blue{
-    color:#1caaca;
+    color:#049DD9;
 }
 
 .paragraph-text{
@@ -35,7 +38,7 @@ body{
     font-weight:300;
     margin: 0;
 }
-.medium-text{
+.medium-text-home{
     font-size:52px;
     font-weight:400;
 }
@@ -111,6 +114,7 @@ body{
 
 
 
+
 .gallery{
     width: 100%;
 }
@@ -124,25 +128,31 @@ body{
 
 .card-section{
     
-    height: 110vh;
+    height:80vh;
     width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:#e9ebef;
+    background-color: #e9ebef;
+
 
 }
-.box{
-    height: 80vh;
+.card{
+    height:60vh;
     width: 25%;
     margin: 0px 25px;
     padding: 8px;
-    border: 1px solid rgb(177, 175, 175);
     border-radius: 5px;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.card-img-box{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 15px;
 }
 .svg-img{
     display: block;
@@ -191,11 +201,199 @@ body{
 .benifit-devider-right{
     margin: auto;
 }
-.footer{
-    height: 100vh;
+
+.footer-svg{
     width: 100%;
+}
+.footer{
+    position: relative;
+    height:120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-content{
+    height:18vh;
+    width: 100%;
+    position:absolute;
+    bottom:65px;
+ 
+}
+.footer-content-1,
+.footer-content-2{
+    height:5vh;
+    width: 100%;
+    color: #4f5152;
+    font-size: 15px;
+    font-weight:500;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-content-3{
+    height:6vh;
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.footer-content-3 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+.footer-content-3 ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #1b91d6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-content-3 ul li a::after{
+    content: "";
+    height: 4px;
+    width: 0%;
+    background:rgb(245, 135, 168);
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    transition:0.5s;
+    opacity: 0; 
+}
+.footer-content-3 ul li a:hover::after{
+    opacity: 1;
+    width: 100%;
+    
+}
+.footer-content-3 ul li a:hover{
+    color:rgb(20, 60, 134);
+}
+.icon-section{
+    position: absolute;
+    bottom: 0px;
+    height:11vh;
+    width: 100%;
+    background-color:#1b91d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-footer i{
+    font-size:40px;
+    color: #ffffff;
+    margin: 0px 20px 0px 20px;
+}
+.icon-footer i:hover{
+    color:rgb(196, 194, 197);
+}
+.dotted-line{
+    position: absolute;
+    bottom:170px;
+    height:5vh;
+    width:100%;
+    margin:30px 0px 30px 0px ;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.dot{
+    height: 9px;
+    width: 9px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #1191cc; 
+   
 }
 
 
 
 
+/*-------------------- start  privacy policy -----------------*/
+.large-text{
+    color: #1191cc;
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline;
+}
+.para-bold{
+    font-weight: bold;
+}
+.paragraph-space-left{
+    margin-left: 80px;
+}
+.medium-text{
+    margin: 20px 0px;
+    color:#1191cc;
+}
+
+.privacy-policy{
+    padding: 25px 80px;
+}
+.table-head-left{
+    width: 30%;
+    height: 14vh;
+    font-size: 20px;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1191cc;
+    color: #ffffff;
+}
+.table-head{
+    height: 14vh;
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1191cc;
+    color:#f3f7f8;
+    
+}
+.table-row{
+    height:14vh;
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    
+}
+.table-data-left{
+    height: 14vh;
+    width: 30%;
+    padding-left: 10px;
+    border-right: 2px solid gray;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.table-data{
+    width: 70%;
+    padding-left: 10px;
+}
+/*---------------- end  privacy policy---------------------------*/
+/*---------------- start  terms & condition----------------------*/
+.bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+.digit-color{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1191cc;
+}
+/*---------------- end  terms & condition----------------------*/
