@@ -6,6 +6,7 @@
 }
 body{
   padding-top:63px;
+  font-family: Arial, Helvetica, sans-serif;
 
 
 
@@ -14,8 +15,11 @@ body{
 #dark-blue{
     font-size:25px;
     font-weight:400;
-    color:#c9ccce;
+    color:#ffffff;
 
+}
+.white{
+    color: #ffffff;
 }
 .purple{
     color: #dbd7d7;
@@ -84,7 +88,7 @@ body{
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    background-color:#049DD9;
+    background-color:#FF5F5D;
 
     
 }
@@ -93,12 +97,15 @@ body{
     height:90vh;
     width: 100%;
     display: flex; 
-    background-color: #e9ebef;
+   /* background-color: #e9ebef;*/
+    background-image: url(/images/wave.svg);
+    background-size: cover;
+    background-position: center;
 
 }
 .middle-section-text{
     height: 90vh;
-    width: 55%;
+    width: 50%;
     padding-left:100px;
     display: flex;
     flex-direction: column;
@@ -106,10 +113,11 @@ body{
 }
 .middle-section-img{
     height: 90vh;
-    width: 45%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 
@@ -147,6 +155,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: #666667;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 .card-img-box{
@@ -207,7 +216,7 @@ body{
 }
 .footer{
     position: relative;
-    height:120vh;
+    height:80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -259,7 +268,7 @@ body{
     content: "";
     height: 4px;
     width: 0%;
-    background:rgb(245, 135, 168);
+    background:#FF5F5D;
     position: absolute;
     left: 0px;
     bottom: -10px;
@@ -277,15 +286,15 @@ body{
 .icon-section{
     position: absolute;
     bottom: 0px;
-    height:11vh;
+    height:10vh;
     width: 100%;
-    background-color:#1b91d6;
+    background-color:#FF5F5D;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .icon-footer i{
-    font-size:40px;
+    font-size:45px;
     color: #ffffff;
     margin: 0px 20px 0px 20px;
 }
@@ -310,10 +319,74 @@ body{
     background-color: #1191cc; 
    
 }
+/*--------------------START PRODUCT---------------------------------*/
+
+.product-header{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-gallery-child{
+    width: 100%;
+    display: flex;
+    padding: 10vh 0vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+   
 
 
+}
+.product-gallery-child:nth-child(1){
+    background-image: url(/images/blob-haikei.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-gallery-child:nth-child(2){
+    background-color: #d2ce7b;
+}
+.product-gallery-child:nth-child(3){
+    background-color: #be9ac7;
+}
+.product-gallery-child-text{
+    height: 100%;
+    width: 40%;
+    padding-left:20vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.product-gallery-child-img{
+    height: 100%;
+    width:50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-gallery-child-img img{
+    border-radius: 10px;
+}
+.product-header-text{
+    font-size: 50px;
+    font-weight: 400;
+    color: #eeeeee;
+    margin-bottom: 20px;
+}
+.product-para-text{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #b2b0b0;
+}
 
 
+/*--------------------END PRODUCT----------------------------------*/
 /*-------------------- start  privacy policy -----------------*/
 .large-text{
     color: #1191cc;
