@@ -330,59 +330,69 @@ body{
 .product-gallery-child{
     width: 100%;
     display: flex;
-    padding: 10vh 0vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-gallery-child-outer-img{
+    width:40%;
+    height: 40vh;
+    margin: 10vh 0;
+
+}
+.product-outer-img-svg{
+    height: 100%;
+    width: 100%;
+}
+.product-gallery-child-inner{
+    height: 80vh;
+    width: 100%;
+    margin: 10vh 0;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
-   
-
-
-}
-.product-gallery-child:nth-child(1){
-    background-image: url(/images/blob-haikei.svg);
+    background-image: url(/images/product-color-shade.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
-.product-gallery-child:nth-child(2){
-    background-color: #d2ce7b;
-}
-.product-gallery-child:nth-child(3){
-    background-color: #be9ac7;
-}
-.product-gallery-child-text{
+.product-gallery-child-inner-text{
     height: 100%;
     width: 40%;
-    padding-left:20vh;
-    margin-bottom: 10vh;
-    text-align: center;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction: column;
-}
-
-.product-gallery-child-img{
-    height: 100%;
-    width:50%;
-    border-radius: 10px;
+    padding: 0 15px 0 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+   
+  
 }
-.product-gallery-child-img img{
-    border-radius: 10px;
+.product-gallery-child-inner-img{
+    height: 100%;
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+.product-gallery-child:nth-child(1){
 }
 .product-header-text{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
-    color: #eeeeee;
+    text-align: left;
+    color: #f4f4f4;
     margin-bottom: 20px;
 }
 .product-para-text{
     font-size: 20px;
     letter-spacing: 2px;
-    color: #b2b0b0;
+    color: #bab7b7;
 }
 
 
