@@ -98,7 +98,7 @@ body{
     width: 100%;
     display: flex; 
    /* background-color: #e9ebef;*/
-    background-image: url(/images/wave.svg);
+    background-image: url(../images/wave.svg);
     background-size: cover;
     background-position: center;
 
