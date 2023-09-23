@@ -97,7 +97,6 @@ body{
     height:90vh;
     width: 100%;
     display: flex; 
-   /* background-color: #e9ebef;*/
     background-image: url(../images/wave.svg);
     background-size: cover;
     background-position: center;
@@ -352,7 +351,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
-    background-image: url(/images/product-color-shade.svg);
+    background-image: url(../images/product-color-shade.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
