@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.active{
+    background-color: rgb(167, 227, 106);
+}
+.container{
+    position:relative;
+    height: 80vh;
+    width: 60%;
+    overflow: scroll;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.container_header{
+    height: 6vh;
+    width:100%;
+    display:flex;
+    
+}
+.campaign_name{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(70, 141, 192);
+}
+.audio_coundown{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: rgb(36, 35, 35);
+    background-color: rgb(225, 223, 223);
+}
+.table_box{
+    border-collapse: collapse;
+}
+.header{
+    height: 6vh;
+    font-size: 21px;
+    color: azure;
+    background-color: rgb(100, 20, 20);
+}
+.voice-row{
+    height: 4vh;
+    background-color: rgb(189, 193, 192);
+
+}
+.voice-row td{
+    width: 25%;
+}
+.voice-row td:hover{
+    background-color: rgb(217, 233, 114);
+
+}
