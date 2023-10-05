@@ -1530,7 +1530,7 @@ function chart_report(){
 	new Chart(ctx, {
 		type: 'doughnut',
 		data: {
-			labels: ['Agents Logged In', 'Agents waiting', 'Paused Agents', 'Agents In Dispo'],
+			labels: ['Login','waiting' ,'Paused','Dispo'],
 			datasets: [{
 			label: 'number of Agents',
 			data: [<?php echo $_SESSION["Agents_Logged_In"]?>,
@@ -1542,6 +1542,7 @@ function chart_report(){
 			borderWidth: 1
 			}]
 		},
+		
 		
 	});
 }
@@ -1638,7 +1639,7 @@ else
 
 echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style='font-size:14px;'  href=\"./AST_timeonVDADallSUMMARY.php?RR=$RR&DB=$DB&adastats=$adastats\">"._QXZ("SUMMARY")."</a> </FONT>\n";
 		
-echo "<span  style='font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"._QXZ("refresh").": </span><span id=refresh_countdown name=refresh_countdown style='font-size:14px;'></span>\n\n";
+echo "<span  style='font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"._QXZ("Refresh").": </span><span id=refresh_countdown name=refresh_countdown style='font-size:14px;'></span>\n\n";
 		?>		
 		</span>
 		</div>	
@@ -1765,6 +1766,7 @@ $stmt="UPDATE vicidial_report_log set run_time='$TOTALrun' where report_log_id='
 if ($DB) {echo "|$stmt|\n";}
 $rslt=mysql_to_mysqli($stmt, $link);
 
+session_destroy();
 
 ?>
 </TD></TR></TABLE>

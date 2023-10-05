@@ -66,7 +66,7 @@ b{
 
 }
 .col-lg-12 font{
-  font-size: 42px;
+  font-size: 35px;
   font-weight: bold;
   color: #2a2c2c;
   font-family:cursive;
@@ -1015,7 +1015,7 @@ h6,
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: #862777;
+  color:#309dcf;
 }
 h1 small,
 h2 small,
@@ -1389,9 +1389,9 @@ kbd kbd {
           box-shadow: none;
 }
 pre {
-  display: block;
+  
   padding: 9.5px;
-  margin: 0 10px 10px;
+  margin: 10px 10px 10px;
   font-size: 13px;
   line-height: 1.42857143;
   color: #333;
@@ -1402,6 +1402,7 @@ pre {
   border: 1px solid #ccc;
   border-radius: 4px;
   max-width: 1270px;
+  
 }
 pre code {
   padding: 0;
@@ -2508,10 +2509,10 @@ input.ace[type="checkbox"], input.ace[type="radio"] {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.42857143;
-  color: #555;
-  background-color: #e1e6e7;
+  color: #555555;
+  background-color: #ffffff;
   background-image: none;
-  border: 1px solid #c0bec0;
+  border: 1px solid #a1a0a1;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -6592,26 +6593,14 @@ button.close {
 {
 	border-right: 1px solid #cdcdd0;
 }
-.table_data{
-  font-size: 18px;
-  height:16vh;
-  width: 12%;
-  color:#ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight:bold;
-  border-radius: 5px;
-  
-  
 
-  
-}
 .table_name{
-  font-size:18px;
-  height:10vh;
-  width: 30%;
+  font-size:15px;
+  height:8vh;
+  width: 18%;
   margin: 5px 12px 5px 12px ;
   font-weight:bold;
-  border-radius: 5px;
+  border-radius: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6622,7 +6611,7 @@ button.close {
 
 }
 .dial_level{
-  height: 16vh;
+  height: 9vh;
   width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -6630,6 +6619,7 @@ button.close {
   justify-content: center;
   align-items: center;
 }
+
 
   
 

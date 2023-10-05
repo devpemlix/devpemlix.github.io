@@ -1040,31 +1040,7 @@ else
     
 
 
-	function khan(){
-			
-		const ctx = document.getElementById('myChart');
-			new Chart(ctx, {
-			type: 'pie',
-			data: {
-				labels: ['Agents Logged In', 'Agents waiting', 'Paused Agents', 'Agents In Dispo'],
-				datasets: [{
-                label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
-				borderWidth: 1
-				}]
-			},
-			options: {
-				scales: {
-				y: {
-					beginAtZero: true
-				}
-				}
-			}
-		});
-	}
-	function real_madrid(color){
-		document.body.innerHTML = "REAL MADRID";
-	}
+	
 	
 	</script>
 
@@ -1822,10 +1798,17 @@ else
 	$diffONEMIN = sprintf("%01.2f", $diffONEMIN);
     echo "<div class='dial_level'>";
 
-	echo "<div class='table_name' ALIGN=RIGHT>"._QXZ("Gear Level")." :<TD class='table_data' ALIGN=LEFT>&nbsp;&nbsp; $DIALlev&nbsp; &nbsp;</div>";
-	echo "<div class='table_name' ALIGN=RIGHT>"._QXZ("Leads Available")." :<TD class='table_data' ALIGN=LEFT>&nbsp;&nbsp;$DAleads &nbsp; &nbsp; </div>";
-	echo "<div class='table_name' ALIGN=RIGHT>"._QXZ("Dropped %")." :<TD class='table_data' ALIGN=LEFT>&nbsp;&nbsp;$drpctTODAY% &nbsp;&nbsp;</div>";
-	echo "<div class='table_name' ALIGN=RIGHT>"._QXZ("Hopper")." :<TD class='table_data' ALIGN=LEFT>&nbsp;&nbsp; $HOPlev / $AHOPlev &nbsp; &nbsp; </div>";
+	echo "<div class='table_name' >Gear Level :&nbsp$DIALlev</div>";
+	echo "<div class='table_name' >Leads Available :&nbsp$DAleads</div>";
+	echo "<div class='table_name' >Dropped % :&nbsp$drpctTODAY</div>";
+	echo "<div class='table_name' >Hopper :&nbsp$HOPlev / $AHOPlev</div>";
+	
+
+
+//	echo "<div class='table_name' >"._QXZ("Gear Level")." :<TD class='table_data' >&nbsp;&nbsp; $DIALlev&nbsp; &nbsp;</div>";
+//	echo "<div class='table_name' >"._QXZ("Leads Available")." :<TD class='table_data'>&nbsp;&nbsp;$DAleads &nbsp; &nbsp; </div>";
+//	echo "<div class='table_name' >"._QXZ("Dropped %")." :<TD class='table_data'>&nbsp;&nbsp;$drpctTODAY% &nbsp;&nbsp;</div>";
+//	echo "<div class='table_name' >"._QXZ("Hopper")." :<TD class='table_data'>&nbsp;&nbsp; $HOPlev / $AHOPlev &nbsp; &nbsp; </div>";
 	
 	echo "</div>";
 
@@ -2891,16 +2874,34 @@ $talking_to_print = mysqli_num_rows($rslt);
 			}
 		if ($realtime_block_user_info < 1)
 			{
-		#	$Aecho .= "<div class='realtime-record'> $G$extension$EG$Aring_note[$i]|$phoneD<a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a> <a href=\"javascript:ingroup_info('$Luser','$j');\">+</a> |$UGD $G$sessionid$EG$L$R | $G"._QXZ("$status",6)."$EG $CM $pausecode|$CP$SVD$G$call_time_MS$EG | $G$campaign_id$EG | $G$calls_today$EG |$INGRP\n</div>";
+				switch ($Lstatus) {
+					case "PAUSED":
+					  $Aecho .= "<div class='realtime-record' style='background-color:#FFD4E2'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>$G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div></div>";
+					  break;
+					case "READY":
+					  $Aecho .= "<div class='realtime-record' style='background-color:#D79FFF'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div></div>";
+					  break;
+					case "INCALL":
+					  $Aecho .= "<div class='realtime-record' style='background-color:#9AEBA3'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div>\n</div>";
+					  break;
+					case "DEAD":
+					  $Aecho .= "<div class='realtime-record' style='background-color:#A8DBF4'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div>\n</div>";
+					  break;
+					case "DISPO":
+					  $Aecho .= "<div class='realtime-record' style='background-color:#FFB366'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div>\n</div>";
+					  break;
+					default:
+					  $Aecho .= "<div class='realtime-record' style='background-color:orange'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div>\n</div>";
+					}
 
-		    $Aecho .= "<div class='realtime-record'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div>\n</div>";
-			
-			
+				
+					  
+		#	$Aecho .= "<div class='realtime-record'> $G$extension$EG$Aring_note[$i]|$phoneD<a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a> <a href=\"javascript:ingroup_info('$Luser','$j');\">+</a> |$UGD $G$sessionid$EG$L$R | $G"._QXZ("$status",6)."$EG $CM $pausecode|$CP$SVD$G$call_time_MS$EG | $G$campaign_id$EG | $G$calls_today$EG |$INGRP\n</div>";
 			/*$Aecho .= "| $G$extension$EG$Aring_note[$i]||$phoneD<a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a> <a href=\"javascript:ingroup_info('$Luser','$j');\">+</a> |||$UGD $G$sessionid$EG$L$R |||| $G"._QXZ("$status",6)."$EG $CM $pausecode||||||$CP$SVD$G$call_time_MS$EG ||||||| $G$campaign_id$EG |||||||| $G$calls_today$EG |||||||||$INGRP\n";*/
 			}
 		$j++;
 		}
-		$Aecho .= "<div class=\"col-lg-12 no-padding\">";
+		//$Aecho .= "<div class=\"col-lg-12 no-padding\">";
 		$Aecho .= "$Aline";
 		/*$Aecho .= "  $agentcount "._QXZ("agents logged in on all servers")."\n";
 		$Aecho .= "  "._QXZ("System Load Average").": $load_ave  &nbsp; $db_source\n\n";*/
@@ -2936,7 +2937,12 @@ $talking_to_print = mysqli_num_rows($rslt);
 		echo "<div class='agent_container'>";
 		echo "<div class='agent_detail_1'>";
 		echo "<div class='agent_detail_1_data'>";
-		echo "$NFB$out_total$NFE";
+		if($out_total < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_total$NFE";
+		}
 		echo "</div>";
 		echo "<div class='agent_detail_1_text'>";
 		echo "Current Active Calls";
@@ -2946,7 +2952,12 @@ $talking_to_print = mysqli_num_rows($rslt);
 
 		echo "<div class='agent_detail_2'>";
 		echo "<div class='agent_detail_2_data'>";
-		echo "$NFB$out_total$NFE ";
+		if($out_total < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_total$NFE";
+		}
 		echo "</div>";
 		echo "<div class='agent_detail_2_text'>";
 		echo "calls being placed";
@@ -2956,7 +2967,12 @@ $talking_to_print = mysqli_num_rows($rslt);
 
 		echo "<div class='agent_detail_3'>";
 		echo "<div class='agent_detail_3_data'>";
-		echo "$NFB$out_ring$NFE ";
+		if($out_ring < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_ring$NFE";
+		}
 		echo "</div>";
 		echo "<div class='agent_detail_3_text'>";
 		echo "calls ringing";
@@ -2966,7 +2982,12 @@ $talking_to_print = mysqli_num_rows($rslt);
 
 		echo "<div class='agent_detail_4'>";
 		echo "<div class='agent_detail_4_data'>";
-		echo "$NFB$out_live$NFE";
+		if($out_live < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_live$NFE";
+		}
 		echo "</div>";
 		echo "<div class='agent_detail_4_text'>";
 		echo "calls waiting for agents";
@@ -2974,14 +2995,19 @@ $talking_to_print = mysqli_num_rows($rslt);
 		echo "</div>";
 
 
-		echo "<div class='agent_detail_5'>";
+	/*	echo "<div class='agent_detail_5'>";
 		echo "<div class='agent_detail_5_data'>";
-		echo "$NFB$in_ivr$NFE";
+		if($in_ivr < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$in_ivr$NFE";
+		}
 		echo "</div>";
 		echo "<div class='agent_detail_5_text'>";
 		echo "calls in IVR";
 		echo "</div>";
-		echo "</div>";
+		echo "</div>";*/
 		
 		echo "</div>";
 
@@ -3050,26 +3076,29 @@ $talking_to_print = mysqli_num_rows($rslt);
 		echo "</div>";
 
 		echo "</div>";
+
 		echo "<PRE>";
-		
-		//echo "$Cecho";
+
+		echo "<div class='agent-list-chart-outerbox' style='display:flex'>";
+
+		echo "<div class='agent-list' style='width:70%'>";
 		echo "$Aecho";
-		
-		
-		
-		
+		echo "</div>";
+    	//echo "$Cecho";
+		if($agent_total>0){
+			echo "<div class='agent-list-chart' style='height:250px;width:250px;margin-left:25px;background-color:#E4F2E7' onmouseover='chart_report()' ><canvas id='myChart'></canvas></div>";   
+	    }
+		echo "</div>";
 
-
+		echo "</div>";
 
 	}
 	else
 	{
-	echo "&nbsp;&nbsp;&nbsp; "._QXZ("NO AGENTS ON CALLS")." \n";
+	//echo "&nbsp;&nbsp;&nbsp; "._QXZ("NO AGENTS ON CALLS")." \n";
 	echo "<PRE>$Cecho";
 	}
-if($agent_total>0){
-     echo "<div style='height:300px;width:300px;margin-top:12px;background-color:#E4F2E7' onmouseover='chart_report()' ><canvas id='myChart'></canvas></div>";   
-}
+
 
 echo "</PRE>";
 echo "</div>";

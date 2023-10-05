@@ -17,7 +17,7 @@ html {
 body{
   position: relative;
   padding: 0;
-  background-color: #4e1f1f;
+  background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   
@@ -160,7 +160,7 @@ ul {
   margin-top: 9px !important;
   align-items: center;
   justify-content: center;
-  background-color:#53b8e7;
+  background-color:#ffffff;
   border-radius: 4px;
 
 }
@@ -887,7 +887,7 @@ box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
   padding: 0 15px;
 }
 body.boxed {
-  background-color: #d0d0d0;
+  background-color: #ffffff;
 }
 body.boxed #cl-wrapper {
   width: 92%;
@@ -1066,16 +1066,12 @@ input::-webkit-input-speech-button {
 }
 .cl-mcont {
   height: 82vh;
-  background-image: url(https://i.pinimg.com/736x/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: inherit;
   font-size: 13px;
   font-weight: 200;
   line-height: 21px;
  /* padding: 15px 30px 30px 30px;*/
-  padding: 10px 20px;
+  padding: 3px 20px;
   margin-top: 0;
   border-radius: 15px;
 }
@@ -1201,7 +1197,7 @@ input::-webkit-input-speech-button {
   border-top: 0px solid #E8E8E8;
 display: block;
 padding: 10px 0px;
-color: #336f93;
+color:#2991c1;
 font-size: 13.5px;
 font-weight:400;
 float: left;
@@ -6121,12 +6117,12 @@ table thead th {
   padding: 5px;
   font-size: 13px;
   font-weight: 700;
-  background-color:#a0c4e3;
+  background-color:#D2E8E3;
 }
 table tbody td {
   padding: 5px 8px;
   font-size: 13px;
-  color: #A1709D;
+  color:#172026;
   
   /*font-weight: bold;*/
 }
@@ -8616,18 +8612,19 @@ a[name='teamADMINgraph']:hover{
 
 
 .agent_container{
-  height: 17vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content:space-evenly;
 }
 .agent_detail_1,.agent_detail_2,.agent_detail_3,.agent_detail_4,.agent_detail_5,.agent_detail_6{
-  height: 14vh;
-  width: 16%;
+  height: 11vh;
+  width: 13%;
   font-size: 14px;
   font-weight: bold;
-  border-radius:8px;
+  border-radius:3px;
+  overflow: hidden;
   display: flex;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8661,7 +8658,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
   justify-content: center;  
  
-  background-color: #E6E600;
+  background-color:#00D668;
 }
 .agent_detail_2_text{
   height:100%;
@@ -8671,7 +8668,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
   justify-content: center; 
   
-  background-color:#FFFF80;
+  background-color:#9AEBA3;
 }
 
 .agent_detail_3_data{
@@ -8703,7 +8700,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
   justify-content: center; 
   
-  background-color: #72C5EE;
+  background-color: #FFB7CE;
 }
 .agent_detail_4_text{
   height:100%;
@@ -8713,7 +8710,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
   justify-content: center;
   
-  background-color: #A8DBF4;
+  background-color: #FFD4E2;
 }
 .agent_detail_5_data{
   height:100%;
@@ -8722,7 +8719,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
   justify-content: center;
  
-  background-color: #FF7F00;
+  background-color:#72C5EE;
 }
 .agent_detail_5_text{
   height:100%;
@@ -8732,7 +8729,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
   justify-content: center;
   
-  background-color: #FFB366;
+  background-color:#A8DBF4;
 }
 .agent_detail_6_data{
   height:100%;
@@ -8740,7 +8737,7 @@ a[name='teamADMINgraph']:hover{
   display: flex;
   align-items: center;
   justify-content: center; 
-  background-color:#FFB7CE;
+  background-color:#FF7F00;
 }
 .agent_detail_6_text{
   height:100%;
@@ -8749,7 +8746,7 @@ a[name='teamADMINgraph']:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#FFD4E2;
+  background-color:#FFB366;
 }
 
 .agent_detail font{
@@ -8768,7 +8765,7 @@ a[name='teamADMINgraph']:hover{
   align-items: center;
 }
 .head-row{
-  height: 6vh;
+  height: 5vh;
   width:100%;
   background-color:white;
   display: flex;
@@ -8779,7 +8776,7 @@ a[name='teamADMINgraph']:hover{
 }
 .head-data{
   height: 100%;
-  width:11%;
+  width:15%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8792,7 +8789,7 @@ a[name='teamADMINgraph']:hover{
 }
 .head-data-user{
   height: 100%;
-  width:18%;
+  width:25%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8804,8 +8801,8 @@ a[name='teamADMINgraph']:hover{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .realtime-record{
-  height:4vh;
-  width: 100%;
+  height:2.5vh;
+  width:99.8%;
   display: flex;
   align-items: center;
  
@@ -8813,25 +8810,25 @@ a[name='teamADMINgraph']:hover{
 }
 .realtime-record-box{
   height:100%;
-  width:10.96%;
-  font-size: 12px;
+  width:14.96%;
+  font-size: 10px;
   font-weight: 500;
   border-bottom: 1px solid white;
   display: flex;
   align-items: center;
   justify-content:center;
-  background-color:#EBEFF2;
 }
 .realtime-record-box-user{
   height:100%;
-  width:18%;
+  width:25%;
   border-bottom: 1px solid white;
-  padding-left: 10px;
-  font-weight: 600;
+  padding-left: 3px;
+  font-size: 12px;
+
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content:flex-start;
-  background-color:#EBEFF2;
 }
 
 
