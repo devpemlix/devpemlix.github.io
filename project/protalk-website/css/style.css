@@ -375,12 +375,13 @@ body{
     align-items: center;
     justify-content: center;
    
+   
 }
 
 
 
-.product-gallery-child:nth-child(1){
-}
+/*.product-gallery-child:nth-child(1){
+}*/
 .product-header-text{
     font-size: 40px;
     font-weight: 400;
