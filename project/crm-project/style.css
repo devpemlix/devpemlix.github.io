@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(224, 220, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.login-header{
+    height: 15vh;
+    width: 100%;
+    background-color: #0c8c9b;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+}
+.login-container{
+    height: 60vh;
+    width: 40%;
+    background-color: #ffff;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+
+}
+.login-container h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color:#0c8c9b ;
+    
+
+}
+.input-box{
+    margin-top: 30px;
+    width: 100%;
+    padding-left: 40px;
+  
+}
+.user-box,
+.password-box{
+    font-size: 25px;
+    margin: 25px 0;
+    display: flex;
+    align-items:center;
+   
+
+}
+.user-box-text,
+.password-box-text{
+    width:28%;
+}
+#user_name,
+#password{
+    height: 45px;
+    width: 60%;
+    font-size: 20px;
+    padding-left: 10px;
+    box-shadow: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.password-forget{
+    padding-left: 290px;
+    font-size: 16px;
+
+    
+}
+.submit{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_submit{
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffff;
+    background-color:#0c8c9b;
+
+}
+.btn_submit:hover{
+    background-color: rgb(229, 151, 6);
+}
+/****************************DASHBOARD PAGE************************/
+.logo{
+    height: 8vh;
+    width: 160px;
+    border-radius: 8px;
+    background-color: #e8cccc;
+}
+.btn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#ffffff ;
+    background-color: #0c8c9b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #07707c;
+}
+.btn-api{
+    height: 40px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    color:#e4e7e7 ;
+    background-color: #0c8c9b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.header-top{
+    height: 7vh;
+    width: 100%;
+    background-color:#323333 ;
+}
+.header-bottom{
+    height: 11vh;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+}
+.header-bottom-left{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.header-bottom-right{
+    height: 100%;
+    width:20% ;
+    padding-right: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    
+}
+.main-container{
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-container-left{
+    width: 20%;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    background-color: #fff;
+
+    
+   
+}
+.main-container-right{
+   
+    width: 75%;
+    padding: 20px;
+    border: 1px solid rgb(176, 175, 175);
+    background-color: #fff;
+
+}
+.main-container-right-inner{
+ 
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(176, 175, 175);
+    background-color: #fff;
+
+}
+.main-container-right-header{
+    height: 8vh;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: #3c3c3c;
+}
+.main-container-right-header h1{
+    font-weight: 400;
+    color: #eae5e5;
+}
+
+
+.table-container{
+    border: 1px solid rgb(164, 164, 164);
+    padding: 25px;
+}
+.table{
+    width: 50%;
+}
+table td{
+    padding: 5px 3px;
+    margin-right: 12px;
+}
+table td input{
+    padding: 5px 0;
+    width: 100%;
+}
+table td button{
+    margin-left: 8px;
+}
+table td select{
+    width: 100%;
+}

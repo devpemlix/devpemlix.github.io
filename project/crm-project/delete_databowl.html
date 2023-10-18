@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Databowl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!------------------header start--------------------->
+    <div class="header">
+        <div class="header-bottom">
+                <div class="header-bottom-left">
+                    <div class="logo"><img src="images/pemlix.gif" height="100%" width="100%" alt=""> </div>
+                    <a href="dashboard.html"><button class="btn">Dashboard</button></a>
+                    <a href="upload.html"><button class="btn">Upload Lead</button></a>
+                    <a href="push_lead.html"><button class="btn">Push Lead</button></a>
+                    <a href="delete_lead.html"><button class="btn">Delete Lead</button></a>
+                    <a href="databowl_lead_upload.html"><button class="btn">Databowl Lead Upload</button></a>
+                    <a href="databowl_lead_push.html"><button class="btn">Databowl Lead Push</button></a>
+                    <a href="delete_databowl.html"><button class="btn">Delete Databowl</button></a> 
+                </div>
+                <div class="header-bottom-right">
+                    <button class="btn" style="background-color: #494848;color: #fff;">Logout</button>                  
+                </div>
+        </div>
+    </div>
+    <!------------------header end--------------------->
+<!------------------main container start--------------------->
+    <div class="main-container">
+        <div class="main-container-left">
+            <!---  <img src="images/pemlix.gif" height="60" width="200" alt="">-->
+                <button class="btn-api"><i class="fa-solid fa-square-plus" style="color:#ecec0a;margin-right:8px;font-size:20px;"></i>API Panel</button>
+        </div>
+        <div class="main-container-right">
+            <div class="main-container-right-header">
+                <h1>Post String Summary Report</h1>
+            </div>
+            <div class="table-container">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="width:40%;">Select Upload Date1:</td>
+                        <td style="width:60%;"><input type="date" name="date" id="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Select Upload Date2:</td>
+                        <td><input  type="date" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Question No</td>
+                        <td><select name="" id="">
+                            <option value="">select campaign Id</option>
+                            <option value="">Dog bread</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right"><button class="btn">Delete</button><button class="btn">Reset</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+<!------------------main container end--------------------->
+
+</body>
+</html>
