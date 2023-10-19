@@ -9,12 +9,7 @@
 <body>
 <!------------------header start--------------------->
     <div class="header">
-        <!--  <div class="header-top">
-              <h6>project : Pemlix Technologies CRM</h6>
-  
-          </div> -->
-        <div class="header-bottom">
-            <div class="header-bottom-left">
+            <div class="header-left">
                 <div class="logo"><img src="images/pemlix.gif" height="100%" width="100%" alt=""> </div>
                 <a href="dashboard.html"><button class="btn">Dashboard</button></a>
                 <a href="upload.html"><button class="btn">Upload Lead</button></a>
@@ -24,7 +19,7 @@
                 <a href="databowl_lead_push.html"><button class="btn">Databowl Lead Push</button></a>
                 <a href="delete_databowl.html"><button class="btn">Delete Databowl</button></a> 
             </div>
-            <div class="header-bottom-right">
+            <div class="header-right">
                 <button class="btn" style="background-color: #494848;color: #fff;">Logout</button>
                      
             </div>
@@ -42,28 +37,32 @@
                 <h1>Question Wise Post string Upload</h1>
             </div>
             <div class="table-container">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Upload Date & Time:</td>
-                            <td><input type="text" name="date" id="date"></td>
-                        </tr>
-                        <tr>
-                            <td>Question No</td>
-                            <td><select name="" id="">
-                                <option value="">select campaign Id</option>
-                                <option value="">Dog bread</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                            <td>Upload CSV File</td>
-                            <td><input type="file" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="right"><button class="btn">Upload</button><button class="btn">Reset</button></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-container-left">
+                    <table class="table-left">
+                        <tbody>
+                            <tr>
+                                <td>Upload Date & Time:</td>
+                                <td><input type="date" name="date" id="date"></td>
+                            </tr>
+                            <tr>
+                                <td>Question No</td>
+                                <td><select name="" id="">
+                                    <option value="">Select Campaign Id</option>
+                                    <option value="">Dog bread</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td>Upload CSV File</td>
+                                <td><input type="file" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="right"><button class="btn">Upload</button><button class="btn">Reset</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+               
             </div>
         </div>
     </div>

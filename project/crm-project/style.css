@@ -127,25 +127,22 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-.header-top{
-    height: 7vh;
-    width: 100%;
-    background-color:#323333 ;
-}
-.header-bottom{
+
+.header{
     height: 11vh;
     width: 100%;
+    border-bottom: 1px solid #b0afaf;
     background-color:#ffffff;
     display: flex;
 }
-.header-bottom-left{
+.header-left{
     height: 100%;
     width: 80%;
     display: flex;
     align-items:center;
     justify-content: space-evenly;
 }
-.header-bottom-right{
+.header-right{
     height: 100%;
     width:20% ;
     padding-right: 10px;
@@ -158,7 +155,7 @@ body{
     width: 100%;
     padding-top: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 .main-container-left{
     width: 20%;
@@ -175,7 +172,7 @@ body{
    
     width: 75%;
     padding: 20px;
-    border: 1px solid rgb(176, 175, 175);
+    border: 1px solid #b0afaf;
     background-color: #fff;
 
 }
@@ -203,10 +200,39 @@ body{
 .table-container{
     border: 1px solid rgb(164, 164, 164);
     padding: 25px;
+    display: flex;
 }
-.table{
-    width: 50%;
+.table-container-left{
+    width:50%;
+
 }
+.table-left{
+    width: 100%;
+}
+.table-left tbody tr td:nth-child(1){
+    width: 35%;
+}
+.table-left tbody tr td:nth-child(2){
+    width: 60%;
+}
+
+
+
+.table-container-right{
+    width:35%;
+    margin-left: 20px;
+}
+.table-right{
+    width: 100%;
+}
+.table-right tbody tr td:nth-child(1){
+    width: 80%;
+}
+.table-right tbody tr td:nth-child(2){
+    width: 20%;
+}
+
+
 table td{
     padding: 5px 3px;
     margin-right: 12px;
@@ -219,5 +245,6 @@ table td button{
     margin-left: 8px;
 }
 table td select{
+    padding: 5px 0;
     width: 100%;
 }
