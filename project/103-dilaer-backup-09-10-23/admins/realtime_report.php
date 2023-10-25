@@ -1530,13 +1530,16 @@ function chart_report() {
 	new Chart(ctx, {
 		type: 'doughnut',
 		data: {
-			labels: ['waiting' ,'Paused','Dispo'],
+			labels: ['waiting' ,'Paused','Dispo','In call'],
 			datasets: [{
 			label: 'number of Agents',
-			data: [
-					<?php echo $_SESSION["Agents_waiting"]?>,
-					<?php echo $_SESSION["Paused_Agents"]?>,
-					<?php echo $_SESSION["Agents_In_Dispo"]?>],
+			data: [  
+					 <?php echo $_SESSION["Agents_waiting"]?>,
+					 <?php echo $_SESSION["Paused_Agents"]?>,
+					 <?php echo $_SESSION["Agents_In_Dispo"]?>,
+					 <?php echo $_SESSION["Agents_In_Calls"]?>
+					],
+				          
 			
 			
 			borderWidth: 1

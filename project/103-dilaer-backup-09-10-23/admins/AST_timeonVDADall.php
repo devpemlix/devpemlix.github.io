@@ -2383,6 +2383,7 @@ else
     
     $Bline  =  "$HTbegin$HTstation$HTphone$HTuser$HTusergroup$HTsessionid$HTbarge$HTstatus$HTpause$HTcustphone$HTserver_ip$HTcall_server_ip$HTtime$HTcampaign$HTcalls$HTigcall\n";*/
     $Bline .=  "<div class='head-row'>
+	<div class='head-data'>STATION</div>
 	<div class='head-data'>SESSION ID</div>
     <div class='head-data-user'>USER SHOW ID</div>
     <div class='head-data'>STATUS</div>
@@ -2886,22 +2887,22 @@ $talking_to_print = mysqli_num_rows($rslt);
 			{
 				switch ($Lstatus) {
 					case "PAUSED":
-					  $Aecho .= "<div class='realtime-record' style='background-color:#FFD4E2'><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>$G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='15' height='15' onclick='speaker_option()'><img id='chat_img' src='images/chat.png'  width='15' height='15'><div id='speaker' style='display:none'>$L$R$W</div></div></div>";
+					  $Aecho .= "<div class='realtime-record' style='background-color:#D79FFF'><div class='realtime-record-box'>$G$extension$EG</div><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='13' height='13' onclick='speaker_option()'><a href='/admins/manager_chat_interface.php'><img id='chat_img' src='images/chat.png'  width='13' height='13'></a><div id='speaker' style='display:none'>$L$R$W</div></div></div>";
 					  break;
 					case "READY":
-					  $Aecho .= "<div class='realtime-record' style='background-color:#D79FFF'><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box'>$L$R</div></div>";
+					  $Aecho .= "<div class='realtime-record' style='background-color:#D79FFF'><div class='realtime-record-box'>$G$extension$EG</div><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='13' height='13' onclick='speaker_option()'><a href='/admins/manager_chat_interface.php'><img id='chat_img' src='images/chat.png'  width='13' height='13'></a><div id='speaker' style='display:none'>$L$R$W</div></div></div>";
 					  break;
 					case "INCALL":
-					  $Aecho .= "<div class='realtime-record' style='background-color:#9AEBA3'><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box'>$L$R</div>\n</div>";
+					  $Aecho .= "<div class='realtime-record' style='background-color:#9AEBA3'><div class='realtime-record-box'>$G$extension$EG</div><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='13' height='13' onclick='speaker_option()'><a href='/admins/manager_chat_interface.php'><img id='chat_img' src='images/chat.png'  width='13' height='13'></a><div id='speaker' style='display:none'>$L$R$W</div></div></div>";
 					  break;
 					case "DEAD":
-					  $Aecho .= "<div class='realtime-record' style='background-color:#A8DBF4'><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box'>$L$R</div>\n</div>";
+					  $Aecho .= "<div class='realtime-record' style='background-color:#A8DBF4'><div class='realtime-record-box'>$G$extension$EG</div><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='13' height='13' onclick='speaker_option()'><a href='/admins/manager_chat_interface.php'><img id='chat_img' src='images/chat.png'  width='13' height='13'></a><div id='speaker' style='display:none'>$L$R$W</div></div>\n</div>";
 					  break;
 					case "DISPO":
-					  $Aecho .= "<div class='realtime-record' style='background-color:#FFB366'><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box'>$L$R</div>\n</div>";
+					  $Aecho .= "<div class='realtime-record' style='background-color:#FFB366'><div class='realtime-record-box'>$G$extension$EG</div><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='13' height='13' onclick='speaker_option()'><a href='/admins/manager_chat_interface.php'><img id='chat_img' src='images/chat.png'  width='13' height='13'></a><div id='speaker' style='display:none'>$L$R$W</div></div>\n</div>";
 					  break;
 					default:
-					  $Aecho .= "<div class='realtime-record' style='background-color:orange'><div class='realtime-record-box'>$UGD $G$sessionid$EG$L$R</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box'>$L$R</div>\n</div>";
+					  $Aecho .= "<div class='realtime-record' style='background-color:orange'><div class='realtime-record-box'>$G$extension$EG</div><div class='realtime-record-box'>$UGD $G$sessionid$EG</div><div class='realtime-record-box-user'><a href=\"./user_status.php?user=$Luser\" target=\"_blank\">$G$user$EG</a></div><div class='realtime-record-box'>  $G"._QXZ("$status",6)."</div><div class='realtime-record-box'>$EG $CM  $pausecode</div><div class='realtime-record-box'>$G$call_time_MS$EG</div><div class='realtime-record-box'>$G$campaign_id$EG</div><div class='realtime-record-box-speaker'><img id='speaker_img' src='images/monitor-barge-img.png'  width='13' height='13' onclick='speaker_option()'><a href='/admins/manager_chat_interface.php'><img id='chat_img' src='images/chat.png'  width='13' height='13'></a><div id='speaker' style='display:none'>$L$R$W</div></div>\n</div>";
 					}
 
 				
@@ -2942,96 +2943,14 @@ $talking_to_print = mysqli_num_rows($rslt);
          
 		echo "\n<BR>\n";
 		echo "<div class='col-lg-12' >";
-		
-
 		echo "<div class='agent_container'>";
-		echo "<div class='agent_detail_1'>";
-		echo "<div class='agent_detail_1_data'>";
-		if($out_total < 1){
-			echo "<font>0</font>";
-		} 
-		else{
-			echo "$NFB$out_total$NFE";
-		}
-		echo "</div>";
-		echo "<div class='agent_detail_1_text'>";
-		echo "Current Active Calls";
-		echo "</div>";
-		echo "</div>";
 
-
-		echo "<div class='agent_detail_2'>";
-		echo "<div class='agent_detail_2_data'>";
-		if($out_total < 1){
-			echo "<font>0</font>";
-		} 
-		else{
-			echo "$NFB$out_total$NFE";
-		}
-		echo "</div>";
-		echo "<div class='agent_detail_2_text'>";
-		echo "calls being placed";
-		echo "</div>";
-		echo "</div>";
-
-
-		echo "<div class='agent_detail_3'>";
-		echo "<div class='agent_detail_3_data'>";
-		if($out_ring < 1){
-			echo "<font>0</font>";
-		} 
-		else{
-			echo "$NFB$out_ring$NFE";
-		}
-		echo "</div>";
-		echo "<div class='agent_detail_3_text'>";
-		echo "calls ringing";
-        echo "</div>";
-		echo "</div>";
-
-
-		echo "<div class='agent_detail_4'>";
-		echo "<div class='agent_detail_4_data'>";
-		if($out_live < 1){
-			echo "<font>0</font>";
-		} 
-		else{
-			echo "$NFB$out_live$NFE";
-		}
-		echo "</div>";
-		echo "<div class='agent_detail_4_text'>";
-		echo "calls waiting for agents";
-		echo "</div>";
-		echo "</div>";
-
-
-	/*	echo "<div class='agent_detail_5'>";
-		echo "<div class='agent_detail_5_data'>";
-		if($in_ivr < 1){
-			echo "<font>0</font>";
-		} 
-		else{
-			echo "$NFB$in_ivr$NFE";
-		}
-		echo "</div>";
-		echo "<div class='agent_detail_5_text'>";
-		echo "calls in IVR";
-		echo "</div>";
-		echo "</div>";*/
-		
-		echo "</div>";
-
-		#############separate##################
-
-
-        echo "<div class='col-lg-12'>";
-		echo "<div class='agent_container'>";
 		echo "<div class='agent_detail_1'>";
 		echo "<div class='agent_detail_1_data'>";
 		echo "$NFB$agent_total$NFE";
 		echo "</div>";
 		echo "<div class='agent_detail_1_text'>";
-		echo "Agents Logged In";
+		echo "Agents Login";
 		echo "</div>";
 		echo "</div>";
 
@@ -3071,7 +2990,7 @@ $talking_to_print = mysqli_num_rows($rslt);
 		echo "$NFB$agent_dead$NFE";
 		echo "</div>";
 		echo "<div class='agent_detail_5_text'>";
-		echo "Agents In Dead Calls";
+		echo "Agents Dead Call";
 		echo "</div>";
 		echo "</div>";
 
@@ -3085,18 +3004,95 @@ $talking_to_print = mysqli_num_rows($rslt);
 		echo "</div>";
 		echo "</div>";
 
+        #############separate##################
+
+		echo "<div class='agent_detail_1'>";
+		echo "<div class='agent_detail_1_data'>";
+		if($out_total < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_total$NFE";
+		}
+		echo "</div>";
+		echo "<div class='agent_detail_1_text'>";
+		echo "Active Calls";
+		echo "</div>";
+		echo "</div>";
+
+
+		echo "<div class='agent_detail_2'>";
+		echo "<div class='agent_detail_2_data'>";
+		if($out_total < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_total$NFE";
+		}
+		echo "</div>";
+		echo "<div class='agent_detail_2_text'>";
+		echo "Calls placed";
+		echo "</div>";
+		echo "</div>";
+
+
+		echo "<div class='agent_detail_3'>";
+		echo "<div class='agent_detail_3_data'>";
+		if($out_ring < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_ring$NFE";
+		}
+		echo "</div>";
+		echo "<div class='agent_detail_3_text'>";
+		echo "Calls ringing";
+        echo "</div>";
+		echo "</div>";
+
+
+		echo "<div class='agent_detail_4'>";
+		echo "<div class='agent_detail_4_data'>";
+		if($out_live < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$out_live$NFE";
+		}
+		echo "</div>";
+		echo "<div class='agent_detail_4_text'>";
+		echo "Calls waiting";
+		echo "</div>";
+		echo "</div>";
+
+
+	/*	echo "<div class='agent_detail_5'>";
+		echo "<div class='agent_detail_5_data'>";
+		if($in_ivr < 1){
+			echo "<font>0</font>";
+		} 
+		else{
+			echo "$NFB$in_ivr$NFE";
+		}
+		echo "</div>";
+		echo "<div class='agent_detail_5_text'>";
+		echo "calls in IVR";
+		echo "</div>";
+		echo "</div>";*/
+
+		echo "</div>";
 		echo "</div>";
 
 		echo "<PRE>";
 
-		echo "<div class='agent-list-chart-outerbox' style='display:flex'>";
+		echo "<div class='agent-list-chart-outerbox' style='display:flex;justify-content:space-between'>";
 
 		echo "<div class='agent-list' style='width:70%'>";
 		echo "$Aecho";
 		echo "</div>";
     	//echo "$Cecho";
 		if($agent_total>0){
-			echo "<div class='agent-list-chart' style='height:250px;width:250px;margin-left:50px;background-color:#E4F2E7' onmouseover='chart_report()'><canvas id='myChart'></canvas></div>";   
+			echo "<div class='agent-list-chart'   style='width:22%;height:250px; margin-left:10px; background-color:#E4F2E7' onmouseover='chart_report()'><canvas style='height:250px;width:250px' id='myChart' ></canvas></div>";   
 	    }
 		echo "</div>";
 

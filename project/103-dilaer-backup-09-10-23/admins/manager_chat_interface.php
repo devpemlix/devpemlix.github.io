@@ -712,7 +712,7 @@ require("admin_header.php");
 			<div class="cl-mcont">
 			<div class="row">
 			<div class="col-md-12 no-padding">
-			<div class="block-flat"><div class="header"><h3 style='float:left;'><?php echo _QXZ("VICIDIAL Manager Chat Interface"); ?></h3><div class='pull-right'><a link='#FFFF00' vlink='#FFFF00' href='manager_chat_interface.php'>[<?php echo _QXZ("RELOAD"); ?>]</a></div></div><div class="col-md-12"><div class="content">
+			<div class="block-flat"><div class="header"><h3 style='float:left;'><?php echo _QXZ("Protalk Manager Chat Interface"); ?></h3><div class='pull-right'><a link='#FFFF00' vlink='#FFFF00' href='manager_chat_interface.php'>[<?php echo _QXZ("RELOAD"); ?>]</a></div></div><div class="col-md-12"><div class="content">
 <?php
 if ($SSallow_chats < 1)
 	{
@@ -742,7 +742,7 @@ $NWE = "')\"><IMG SRC=\"help.gif\" WIDTH=20 HEIGHT=20 BORDER=0 ALT=\"HELP\" ALIG
 
 		echo "<form action='manager_chat_interface.php' method='GET'>";
 		echo "<FONT FACE=\"ARIAL,HELVETICA\" COLOR=BLACK SIZE=2><BR>";
-		if ($message) {echo "<B>$message</B><BR>";}
+		//if ($message) {echo "<B>$message</B><BR>";}
 		echo "<span id='ManagerChatAvailabilityDisplay'><TABLE width=750 cellspacing=1 cellpadding=1 class='hover centerline'>\n";
 		echo "<TR>\n";
 		echo "<TD><h4>"._QXZ("CURRENT LIVE AGENTS")."</h4></TD>\n";
@@ -772,7 +772,7 @@ $NWE = "')\"><IMG SRC=\"help.gif\" WIDTH=20 HEIGHT=20 BORDER=0 ALT=\"HELP\" ALIG
 		echo "<select class='form-control' name='available_chat_groups[]' multiple size='5' style=\"width:350px\">\n";
 		if (count($user_group_array)==0) {echo "<option value=''>---- "._QXZ("NO LIVE USER GROUPS")." ----</option>";}
 		while (list($user_group, $group_name) = each($user_group_array)) {
-			echo "<option value='$user_group'>$user_group - $group_name</option>\n";
+			echo "<option value='$user_group'>$user_group -$group_name </option>\n";
 		}
 		echo "</select>\n";
 		echo "</TD>";
