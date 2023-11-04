@@ -1797,7 +1797,7 @@ $SSenable_languages =		$row[7];
 <div class="col-md-2">
  <div class="sidebar-logo">
             <div class="logo">
-                <A HREF="./admin.php"><IMG  SRC="images/logo.png" WIDTH=150 HEIGHT=50 BORDER=0 ALT="System logo"></A>
+                <A HREF="./admin.php"><IMG style="margin-top:10px;" SRC="images/logo.png" WIDTH=160 HEIGHT=40 BORDER=0 ALT="System logo"></A>
             </div>
           </div>
 </div>
@@ -2280,7 +2280,7 @@ Purpose:remove space above and below unline in submenu -->
 
 <div class='col-md-12'>
 
-    <div class="cl-sidebar border">
+        <div class="cl-sidebar border">
 	<div class="cl-navblock">
 	<div class="menu-space">
 	<div class="content">           
