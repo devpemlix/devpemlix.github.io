@@ -1,0 +1,166 @@
+ADMIN|FAIL|2016-03-01 17:26:21||BAD|192.168.1.70|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36|
+ADMIN|FAIL|2016-03-01 17:34:31||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0|
+ADMIN|FAIL|2016-10-12 18:39:26||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2016-10-13 10:11:26||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-13 10:11:27|6666|BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-13 10:11:29|6666|BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-13 10:11:30|6666|BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-14 15:18:21||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-14 15:18:22|6666|BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-17 14:02:37||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-17 14:02:38|6666|BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-10-17 14:02:42||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0|
+ADMIN|FAIL|2016-11-08 10:11:20||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-03 18:16:21||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-03 18:37:20||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36|
+ADMIN|FAIL|2017-02-06 11:35:31||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-06 11:36:30||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-06 11:49:28||BAD|192.168.1.19|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36|
+ADMIN|FAIL|2017-02-06 11:49:40||BAD|192.168.1.1|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36|
+ADMIN|FAIL|2017-02-06 11:49:55||BAD|66.102.6.79|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36|
+ADMIN|FAIL|2017-02-06 11:50:10||BAD|66.102.6.77|Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36|
+ADMIN|FAIL|2017-02-06 11:50:54||BAD|192.168.1.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-06 12:35:06||BAD|192.168.1.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-06 12:35:08||BAD|192.168.1.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-07 11:03:28||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-02-07 11:04:02||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 12:11:36||BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 12:54:29||BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 14:40:04||BAD|122.162.18.130|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7|
+ADMIN|FAIL|2017-02-07 14:42:33||BAD|122.162.18.130|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7|
+ADMIN|FAIL|2017-02-07 14:42:55||BAD|122.162.18.130|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7|
+ADMIN|FAIL|2017-02-07 15:02:21||BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 15:02:31|8888|BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 15:02:41|8888|BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 15:03:14||BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-07 15:03:21|6666|BAD|103.212.144.166|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-08 17:51:56||BAD|192.168.1.11|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0|
+ADMIN|FAIL|2017-02-09 09:45:30||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-04-13 17:29:49||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2017-04-13 17:41:08||BAD|192.168.1.12|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0|
+ADMIN|FAIL|2022-09-02 11:36:07||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 11:37:44||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 11:54:25||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 11:56:16||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 11:56:27||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 12:08:25||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 14:51:18||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-02 15:32:39||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-03 16:52:17||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-09-03 17:18:00||BAD|192.168.1.20|Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0|
+ADMIN|FAIL|2022-09-03 17:19:54||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-09-03 17:30:13||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-09-03 17:53:35||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-09-03 17:54:56||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-09-03 18:03:07||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-09-03 18:06:14||BAD|192.168.1.16|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0|
+ADMIN|FAIL|2022-10-29 22:27:19||BAD|202.8.117.246|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-10-29 22:28:49||BAD|202.8.117.246|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-10-29 22:28:54|6666|BAD|202.8.117.246|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-10-29 22:56:40||BAD|202.8.117.246|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-10-30 20:20:46||BAD|157.40.95.164|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-03 11:41:45||BAD|157.40.64.244|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-04 16:43:36||BAD|157.40.66.44|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-24 10:45:40||BAD|157.40.78.33|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-24 11:09:24|6666|BAD|157.40.78.33|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-24 11:17:31||BAD|157.40.78.33|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-24 11:29:31||BAD|157.40.78.33|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-25 19:03:33||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 19:03:39|admin|BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 19:03:47|6666|BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 19:04:10||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-25 19:04:57||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-25 19:26:00||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 19:26:06|6666|BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 19:26:10|qazwsxedc|BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 19:26:42||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56|
+ADMIN|FAIL|2022-11-25 19:40:00||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56|
+ADMIN|FAIL|2022-11-25 20:33:33||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 20:33:40|6666|BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 20:41:01||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 21:04:43||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-25 21:07:05||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 21:09:05||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-11-25 21:10:01||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-25 22:45:43||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-11-25 22:49:42||BAD|157.40.181.161|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:00:11||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:03:31||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:03:34|6666|BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:06:10||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:10:41||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:14:46||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:16:11||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-05 20:16:18|6666|BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-05 20:20:18||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-05 20:21:49||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:25:55||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:26:36|6666|BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:26:43|6666|BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:26:50|6666|BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:42:47||BAD|139.167.223.141|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:42:50||BAD|139.167.223.141|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 20:45:30||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 21:42:54||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:22:00||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:43:36||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:43:38||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:44:22||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:46:58||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-05 22:47:35||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-05 22:53:59||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:56:27||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 22:57:52||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:00:37||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:55:39||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:55:42||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:55:51||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:55:54||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:55:56||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:57:10||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:57:11||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:57:12||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-05 23:57:14||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 00:07:06||BAD|157.40.78.124|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 10:41:56||BAD|157.40.224.169|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 10:59:21||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 10:59:46||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 11:19:39||BAD|157.40.224.169|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 11:19:46|QA|BAD|157.40.224.169|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:50:52||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:51:10|OPS|BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:51:22|OPS|BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:51:51|QA|BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:53:31||BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:54:07|ops|BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:54:16|OPS|BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:54:33|ops|BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:55:42||BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:58:34||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:58:59||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 13:59:26||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:00:09|IT|BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:00:47||BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:00:56|IT|BAD|42.110.168.243|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:01:01||BAD|42.110.169.187|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:01:26||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:02:22|IT|BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:02:39|6666|BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:02:47||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:09:27||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:10:48||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:17:16||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:24:22||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:29:55||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:30:35||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:30:48||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:32:28||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:33:13||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:33:15||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 14:33:20||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 15:26:27||BAD|102.134.65.153|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 15:27:07||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-06 15:28:28||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-06 15:29:00||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36|
+ADMIN|FAIL|2022-12-06 15:29:32||BAD|36.255.66.50|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0|
+ADMIN|FAIL|2022-12-06 15:52:26||BAD|157.40.224.169|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36|

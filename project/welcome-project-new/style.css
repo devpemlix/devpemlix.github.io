@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(229, 229, 229);
+}
+.container{
+    height: 70vh;
+    width: 55%;
+    display: flex;
+    border-radius: 35px;
+    overflow: hidden;
+
+}
+.container-left{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+
+}
+.container-left-img{
+    height: 400px;
+    width: 400px;
+}
+.container-left-text{
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.container-left-text p{
+    text-align: center;
+}
+/*.container-left-text{
+    
+}*/
+.container-right{
+    position: relative;
+    height:100%;
+    width: 40%;
+    background-color: white;
+}
+.divider-line{
+    position: absolute;
+    height: 100%;
+    width: 3%;
+    background-color:rgb(241, 241, 241);
+   
+}
+.container-right-header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-curve{
+    height: 8vh;
+    width: 60%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #00c3ff;
+}
+
+.admin-btn,
+.agent-btn{
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+    font-weight:500;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius:35px ;
+    color: white;
+    background-color:#00c3ff ;
+    
+}
+.container-right-bottom{
+    height:50vh ;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    
+}
+.container-admin-header,
+.container-agent-header{
+    margin: 20px 0;
+        
+}
+.container-admin-header h2,
+.container-agent-header h2{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    color: #075897;
+
+}
+
+.container-admin,
+.container-agent{
+    height: 50vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.agent-login-form input[type=text],
+.agent-login-form input[type=password],
+.agent-login-form input[type=number],
+.admin-login-form input[type=text],
+.admin-login-form input[type=password]{
+    padding: 8px 5px;
+    width: 100%;
+    margin:5px 0;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid #075897;
+    background-color:white;
+}
+.admin-login-form input[type=text]::placeholder,
+.admin-login-form input[type=password]::placeholder,
+.agent-login-form input[type=text]::placeholder,
+.agent-login-form input[type=password]::placeholder,
+.agent-login-form input[type=number]::placeholder{
+    font-size: 17px;
+    font-weight: 500;
+    color:#075897;
+    background-color: white;
+    
+}
+
+
+
+.agent-login-form input[type=submit],
+.admin-login-form input[type=submit]{
+    padding: 10px 55px;
+    font-size: 20px;
+    font-weight:500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:#00c3ff; 
+}
+input:focus {
+    outline:none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000000s ease-in-out 0s;
+}
+.login-btn-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

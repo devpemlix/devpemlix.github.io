@@ -1,0 +1,101 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(228, 228, 228);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.btn{
+	height: 50px;
+	width: 180px;
+	border: none;
+	border-radius: 5px;
+	margin-left:30px;
+	color: white;
+	font-size: 20px;
+	font-weight:500;
+	background-color: rgb(18, 163, 207);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+	background-color: rgb(17, 112, 141) ;
+}
+i{
+	font-size: 55px;
+	color:#646461;
+
+}
+.outer-box{
+	position: relative;
+	height: 70vh;
+	width: 55%;
+	border-radius: 12px;
+	display: flex;
+	background-color: #ffff;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+.outer-box-right{
+	position: relative;
+	height: 100%;
+	width: 60%;
+	background-color:#ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.button-link{
+	height: 40vh;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.agent-box,
+.admin-box{
+	display: flex;
+	align-items: center;
+	margin: 12px 0;
+	
+}
+.outer-box-right-header{
+	position: absolute;
+	top:12px;	
+}
+.outer-box-right-header h1{
+	color: rgb(29, 29, 29);
+	font-size: 38px;
+	font-weight: 500;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outer-box-left{
+	position: relative;
+	height: 100%;
+	width: 40%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-color: rgb(204, 223, 237);	
+}
+
+
+
+
+
+
+

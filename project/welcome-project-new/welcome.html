@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <div class="container-left-img">
+                <img src="images/PICTURE-removebg-preview.png" height="100%" width="100%" alt="">
+            </div>
+            
+        </div>
+        <div class="container-right">
+            <div class="divider-line"></div>
+            <div class="container-right-header"> 
+                <button class="admin-btn" >Admin</button>
+                <button class="agent-btn" style="display:none">Agent</button>
+            </div>
+            <div class="container-right-bottom">
+                
+                <div class="container-agent" >
+                    <div class="container-agent-header">
+                        <h2>Agent Login</h2>
+                    </div>
+                    <form class="agent-login-form" action="" >
+                        <input type="text" name="user_login" id="" placeholder="User Login">
+                        <input type="password" name="user_password" id="" placeholder="User Password">
+                        <input type="number" name="phone_login" id="" placeholder="Phone Login">
+                        <input type="password" name="phone_password" id="" placeholder="Phone Password">
+                        <div class="login-btn-container">
+                            <input type="submit" name="login_agent" value="Login">
+                        </div>
+    
+                    </form>
+                </div>
+
+                <div class="container-admin" style="display:none">
+                    <div class="container-admin-header">
+                        <h2>Admin Login</h2>
+                    </div>
+                    <form class="admin-login-form" action="" >
+                        <input type="text" name="admin_username" id="" placeholder="Username">
+                        <input type="password" name="admin_password" id="" placeholder="Password">
+                        <div class="login-btn-container">
+                            <input type="submit" name="login_admin" value="Login">
+                        </div>
+    
+                    </form>
+                </div>
+
+
+
+
+
+
+            </div>
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
