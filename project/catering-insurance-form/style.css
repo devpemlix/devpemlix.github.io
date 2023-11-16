@@ -54,6 +54,21 @@ body{
     padding: 10px 12px;
     font-size: 18px;
     font-weight: 500;
+   
+}
+
+.form select{
+    width: 100%;
+    display: block;
+    margin:5px 0px ;
+    padding: 10px 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(109, 108, 108);
+}
+.form select option{
+    color: rgb(131, 130, 129);
+    
 }
 .submit-btn{
     margin-top: 50px;
@@ -64,3 +79,10 @@ body{
     background-color: rgb(54, 173, 220);
 }
 
+.head{
+    position: absolute;
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    background-color: #96eb42;
+}

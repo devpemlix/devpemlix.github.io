@@ -201,6 +201,7 @@ body{
     border: 1px solid rgb(164, 164, 164);
     padding: 25px;
     display: flex;
+   
 }
 .table-container-left{
     width:50%;
